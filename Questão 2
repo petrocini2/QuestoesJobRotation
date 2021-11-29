@@ -1,0 +1,35 @@
+
+import java.util.Scanner;
+
+public class MyClass {
+
+    public static void main(String args[]) {
+        
+        int num1 = 0;
+        int num2 = 1;
+        
+    Scanner leitor = new Scanner(System.in);
+    int numEscolhido = leitor.nextInt();
+
+    while (num1 < numEscolhido){
+        
+    num1 = num1+num2;
+    num2 = num1-num2;
+    
+        
+
+    
+    }
+        if(num1 == numEscolhido){
+        
+        System.out.println("Numero escolhido faz parte da sequencia Fibonacci");
+        
+    }else{
+        
+        System.out.println("Numero escolhido não faz parte da sequencia Fibonacci");
+        
+    }
+        System.out.println(num1);
+    
+    }
+}
